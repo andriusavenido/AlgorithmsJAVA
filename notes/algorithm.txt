@@ -1,0 +1,43 @@
+# Algorithm
+- an algorithm often operates on some input and produces some output 
+- an algorithm must terminate after a finite number of steps 
+- an algorithm must not have any unnecessary steps 
+
+
+# How to write an Algorithm:
+
+Algorithm swap(a,b)
+{
+    temp = a;   -1
+    a = b;      -1
+    b = temp;   -1
+}               f(n) = 3;
+
+-> Space: a -1, b -1, temp -1, S(n) = 3 
+-> Time: O(1), Space: O(1)
+
+- Each statement is one unit of time.
+
+# How to analyze an Algorithm:
+    1. Time
+    2. Space (memory)
+    3. Network Consumption
+    4. Power Consumption
+    5. CPU Registers
+
+
+# Frequency Count Method:
+
+Algorithm sum(A, n)
+{
+    s= 0;                 -1
+    for (i = 0; i<n;i++){ -n+1
+        s =s + A[i];      -n
+    }
+    return s;             -1
+}                         f(n) = 2n+3
+                          O(n)
+                          
+Space: A, n, s, i = n + 3 = S(n)
+                            O(n)
+                            
